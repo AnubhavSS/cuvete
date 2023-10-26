@@ -1,0 +1,31 @@
+.quesCont{
+    height: 384px;
+    width: 386px;
+    border-radius: 10px;
+    border: 1px solid #EBF0F5;
+    margin: 10px;
+}
+
+.detQues{
+    width: 326px;
+    height: 42px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.circProg{
+    width: 180px;
+    height: 181px;
+    margin: auto;
+    padding-top: 24px;
+}
+
+/* @media screen and (max-width: 768px) {
+    .quesCont{
+        height: 384px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #EBF0F5;
+        margin: 10px;
+    }
+} */

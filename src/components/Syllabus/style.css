@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400,700&display=swap");
+
+
+.sylContainer{
+    height: 400px;
+    width: 386px;
+    border-radius: 10px;
+    border: 1px solid #EBF0F5;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tag{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#566474;
+    margin-left: 10px;
+    
+}
+
+.detCon{
+    width: 326px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.percent{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.pbCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .sylContainer{
+        height: 400px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #EBF0F5;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

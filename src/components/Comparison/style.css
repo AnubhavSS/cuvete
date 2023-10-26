@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400,700&display=swap");
+
+.compContainer{
+    height: 505px;
+    width: 717px;
+    border-radius: 10px;
+    border: 1px solid #EBF0F5;
+    margin: 10px;
+}
+
+.compG{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:#222F3E ;
+    margin: 15px;
+}
+
+.compCon2{
+    margin: 20px;
+    height: 90px;
+    width: 432px;
+}
+
+.desc{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #566474;
+    
+}
+
+.desc span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #566474;
+}
+
+.gDisp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toolTip{
+    background-color:#1E272E;
+    width: 175px;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolTip span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.graph{
+    width: 90%;
+    height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .compContainer{
+        height: 505px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #EBF0F5;
+        margin: 10px;
+    }
+
+    .graph{
+        width: 70%;
+        height: 300px;
+    }
+}
+

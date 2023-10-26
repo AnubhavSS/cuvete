@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap");
+
+.container {
+  height: 88px;
+  border-bottom: 1px solid #ebf0f5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  width: 190px;
+  height: 100px;
+}
+
+.user {
+  width: 160px;
+  height: 44px;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 40px;
+}
+
+.user p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #1e272e;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    border-radius: 38px;
+  }
